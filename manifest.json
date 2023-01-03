@@ -1,0 +1,21 @@
+{
+	"name": "Draw Rainbow",
+	"short_name": "Draw Rainbow",
+	"icons": [
+		{
+			"src": "/draw-rainbow/images/icons/icon192.png",
+			"sizes": "192x192",
+			"type": "image/png",
+			"purpose": "any maskable"
+		},
+		{
+			"src": "/draw-rainbow/images/icons/icon512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"start_url": "/draw-rainbow",
+	"display": "standalone",
+	"background_color": "#000000",
+	"theme_color": "#eae7dc"
+}

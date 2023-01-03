@@ -40,7 +40,6 @@ ctx.lineWidth = lineWidth.value;
 let isPainting = false;
 let gradient = null;
 const handleDrawStart = () => {
-	console.log('start')
 	ctx.beginPath();
 	isPainting = true;
 	gradient = ctx.createLinearGradient(
@@ -64,7 +63,6 @@ const handleDrawing = (e) => {
 	ctx.moveTo(x, y);
 }
 const handleDrawEnd = () => {
-	console.log('end')
 	isPainting = false;
 }
 canvas.addEventListener('mousedown', handleDrawStart);
