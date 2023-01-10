@@ -71,5 +71,6 @@ canvas.addEventListener('mousemove', handleDrawing);
 canvas.addEventListener('touchmove', handleDrawing);
 document.addEventListener('mouseup', handleDrawEnd);
 document.addEventListener('touchend', handleDrawEnd);
+document.addEventListener('scroll', (e) => {e.preventDefault()}, {passive: false})
 
 initSizeAndColor();
