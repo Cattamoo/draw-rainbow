@@ -5,7 +5,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	accent-color: #eae7dc;
-	overscroll-behavior: none;
+	overscroll-behavior: contain;
 	-webkit-user-select: none;
 }
 
