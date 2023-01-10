@@ -5,6 +5,8 @@ body {
 	justify-content: center;
 	align-items: center;
 	accent-color: #eae7dc;
+	overscroll-behavior: none;
+	-webkit-user-select: none;
 }
 
 canvas {
