@@ -5,6 +5,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	accent-color: #eae7dc;
+	overflow: hidden;
 	overscroll-behavior: contain;
 	-webkit-user-select: none;
 }
